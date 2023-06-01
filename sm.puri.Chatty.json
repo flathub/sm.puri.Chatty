@@ -259,6 +259,10 @@
                     "type": "git",
                     "url": "https://source.puri.sm/Librem5/chatty.git",
                     "tag": "v0.7.3"
+                },
+                {
+                    "type": "patch",
+                    "path": "sm.puri.Chatty.metainfo.xml.in.patch"
                 }
             ]
         }
