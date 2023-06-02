@@ -21,7 +21,7 @@
          </screenshot>
      </screenshots>
      <mimetypes>
-@@ -24,14 +24,23 @@
+@@ -24,14 +24,21 @@
          <content_attribute id="social-chat">intense</content_attribute>
      </content_rating>
      <releases>
@@ -29,15 +29,13 @@
 +      <release version="0.7.3" date="2023-05-13">
          <description>
 -          <p>Initial development release of chatty with support for xmpp and sms.</p>
-+          <p>
-+            <ul>
-+              <li>Fix some memory leaks</li>
-+              <li>Improve sidebar</li>
-+              <li>Fix logging stack traces on crash</li>
-+              <li>Fix message counter for XMPP messages</li>
-+              <li>Update Translations</li>
-+            </ul>
-+          </p>
++          <ul>
++            <li>Fix some memory leaks</li>
++            <li>Improve sidebar</li>
++            <li>Fix logging stack traces on crash</li>
++            <li>Fix message counter for XMPP messages</li>
++            <li>Update Translations</li>
++          </ul>
          </description>
        </release>
 +      <!-- todo: Add past releases -->
