@@ -16,6 +16,7 @@
         "--talk-name=im.pidgin.purple.PurpleService",
         "--talk-name=org.gnome.evolution.dataserver.Subprocess.Backend.*",
         "--talk-name=org.freedesktop.secrets",
+        "--system-talk-name=org.freedesktop.login1",
         "--env=SSL_CERT_DIR=/etc/ssl/certs",
 	"--persist=.purple"
     ],
