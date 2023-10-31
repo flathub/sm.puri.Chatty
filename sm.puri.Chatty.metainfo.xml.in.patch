@@ -1,6 +1,6 @@
 --- a/data/sm.puri.Chatty.metainfo.xml.in
 +++ b/data/sm.puri.Chatty.metainfo.xml.in
-@@ -4,9 +4,9 @@
+@@ -4,17 +4,17 @@
      <metadata_license>CC0-1.0</metadata_license>
      <project_license>GPL-3.0-or-later</project_license>
      <name>Chats</name>
@@ -8,12 +8,12 @@
 +    <summary>Messaging application for mobile and desktop</summary>
      <description>
 -        <p>Chats is a messaging application supporting XMPP and SMS.</p>
-+      <p>Chats is a simple to use to messaging app for 1:1 communication and small groups supporting SMS, MMS, XMPP and Matrix.</p>
++        <p>Chats is a simple to use to messaging app for 1:1 communication and small groups supporting SMS, MMS, XMPP and Matrix.</p>
      </description>
 -    <url type="homepage">https://source.puri.sm/Librem5/chatty</url>
 +    <url type="homepage">https://gitlab.gnome.org/World/Chatty</url>
      <translation type="gettext">purism-chatty</translation>
-@@ -14,7 +14,7 @@
+     <update_contact>librem5-dev@lists.community.puri.sm</update_contact>
      <screenshots>
          <screenshot type="default">
              <caption>Chats message window</caption>
@@ -22,7 +22,7 @@
          </screenshot>
      </screenshots>
      <mimetypes>
-@@ -24,14 +24,21 @@
+@@ -24,14 +24,22 @@
          <content_attribute id="social-chat">intense</content_attribute>
      </content_rating>
      <releases>
@@ -41,10 +41,11 @@
        </release>
 +      <!-- todo: Add past releases -->
      </releases>
++
      <custom>
        <value key="Purism::form_factor">workstation</value>
        <value key="Purism::form_factor">mobile</value>
      </custom>
 -</component>
-\ No newline at end of file
+\ Kein Zeilenumbruch am Dateiende.
 +</component>
