@@ -1,7 +1,7 @@
 {
     "app-id": "sm.puri.Chatty",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "44",
+    "runtime-version": "45",
     "sdk": "org.gnome.Sdk",
     "command": "chatty",
     "finish-args": [
@@ -236,16 +236,6 @@
             ]
         },
         {
-            "name": "gspell",
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/GNOME/gspell",
-                    "tag": "1.12.1"
-                }
-            ]
-        },
-        {
             "name": "gnome-desktop",
             "buildsystem": "meson",
             "sources": [
@@ -264,11 +254,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/Chatty.git",
-                    "tag": "v0.7.3"
-                },
-                {
-                    "type": "patch",
-                    "path": "sm.puri.Chatty.metainfo.xml.in.patch"
+                    "tag": "v0.8.0"
                 }
             ]
         }
