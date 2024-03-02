@@ -256,6 +256,10 @@
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/Chatty.git",
                     "tag": "v0.8.0"
+                },
+                {
+                    "type": "patch",
+                    "path": "sm.puri.Chatty.metainfo.xml.in.in.patch"
                 }
             ]
         }
