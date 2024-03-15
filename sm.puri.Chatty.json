@@ -52,7 +52,12 @@
                 {
                     "type": "archive",
                     "url": "http://downloads.sourceforge.net/pidgin/pidgin-2.14.7.tar.bz2",
-                    "sha256": "fea6ab4f0572fe24646049c2b3fecbdca27abca6d06e95bd655e44db99bd69fe"
+                    "sha256": "fea6ab4f0572fe24646049c2b3fecbdca27abca6d06e95bd655e44db99bd69fe",
+                    "x-checker-data": {
+                        "type": "rotating-url",
+                        "url": "http://downloads.sourceforge.net/pidgin/pidgin-2.14.7.tar.bz2",
+                        "pattern": "http://downloads.sourceforge.net/pidgin/pidgin-([0-9.]+).([0-9.]+).([0-9.]+).tar.bz2"
+                    }
                 }
             ]
         },
@@ -75,7 +80,11 @@
                 {
                     "type": "git",
                     "url": "https://github.com/libical/libical.git",
-                    "tag": "v3.0.16"
+                    "tag": "v3.0.16",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\d.]+)$"
+                    }
                 }
             ]
         },
@@ -91,7 +100,11 @@
                 {
                     "type": "git",
                     "url": "https://github.com/abseil/abseil-cpp",
-                    "tag": "20230125.3"
+                    "tag": "20230125.3",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^([\d.]+)$"
+                    }
                 }
             ]
         },
@@ -100,9 +113,13 @@
             "buildsystem": "simple",
             "sources": [
                 {
-                    "type": "archive",
-                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.75.0/source/boost_1_75_0.tar.gz",
-                    "sha256": "aeb26f80e80945e82ee93e5939baebdca47b9dee80a07d3144be1e1a6a66dd6a"
+                    "type": "git",
+                    "url": "https://github.com/boostorg/boost",
+                    "tag": "boost-1.75.0",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "semantic"
+                    }
                 }
             ],
             "build-commands": [
@@ -128,7 +145,11 @@
                 {
                     "type": "git",
                     "url": "https://github.com/protocolbuffers/protobuf",
-                    "tag": "v21.12"
+                    "tag": "v21.12",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\d.]+)$"
+                    }
                 }
             ]
         },
@@ -147,7 +168,11 @@
                 {
                     "type": "git",
                     "url": "https://github.com/google/libphonenumber",
-                    "tag": "v8.13.12"
+                    "tag": "v8.13.12",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "semantic"
+                    }
                 }
             ]
         },
@@ -182,7 +207,11 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/evolution-data-server.git",
-                    "tag": "3.48.1"
+                    "tag": "3.48.1",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^([\d.]+)$"
+                    }
                 }
             ]
         },
@@ -197,20 +226,28 @@
                 {
                     "type": "git",
                     "url": "https://source.puri.sm/Librem5/feedbackd.git",
-                    "tag": "v0.0.0+git20220520"
+                    "tag": "v0.0.0+git20220520",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v0\.0\.0\+git([\d]{8})$"
+                    }
                 }
             ]
         },
         {
-          "name": "olm",
-          "buildsystem": "cmake-ninja",
-          "sources": [
-            {
-              "type": "git",
-              "tag" : "3.2.15",
-              "url": "https://gitlab.matrix.org/matrix-org/olm.git"
-            }
-          ]
+            "name": "olm",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "git",
+                    "tag" : "3.2.15",
+                    "url": "https://gitlab.matrix.org/matrix-org/olm.git",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "semantic"
+                    }
+                }
+            ]
         },
         {
             "name" : "ModemManager",
@@ -232,7 +269,11 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.freedesktop.org/mobile-broadband/ModemManager",
-                    "tag" : "1.21.8-dev"
+                    "tag" : "1.21.8-dev",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^(\d+\.\d*[02468]\.\d+)$"
+                    }
                 }
             ]
         },
@@ -243,7 +284,11 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/gnome-desktop",
-                    "tag": "44.0"
+                    "tag": "44.0",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "semantic"
+                    }
                 }
             ]
         },
@@ -255,7 +300,11 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/Chatty.git",
-                    "tag": "v0.8.1"
+                    "tag": "v0.8.1",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "semantic"
+                    }
                 },
                 {
                     "type": "patch",
