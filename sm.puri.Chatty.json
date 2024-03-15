@@ -51,11 +51,11 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://downloads.sourceforge.net/pidgin/pidgin-2.14.7.tar.bz2",
-                    "sha256": "fea6ab4f0572fe24646049c2b3fecbdca27abca6d06e95bd655e44db99bd69fe",
+                    "url": "http://downloads.sourceforge.net/pidgin/pidgin-2.14.13.tar.bz2",
+                    "sha256": "120049dc8e17e09a2a7d256aff2191ff8491abb840c8c7eb319a161e2df16ba8",
                     "x-checker-data": {
                         "type": "rotating-url",
-                        "url": "http://downloads.sourceforge.net/pidgin/pidgin-2.14.7.tar.bz2",
+                        "url": "http://downloads.sourceforge.net/pidgin/pidgin-2.14.13.tar.bz2",
                         "pattern": "http://downloads.sourceforge.net/pidgin/pidgin-([0-9.]+).([0-9.]+).([0-9.]+).tar.bz2"
                     }
                 }
@@ -80,7 +80,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/libical/libical.git",
-                    "tag": "v3.0.16",
+                    "tag": "v3.0.17",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\d.]+)$"
@@ -99,8 +99,8 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://github.com/abseil/abseil-cpp",
-                    "tag": "20230125.3",
+                    "url": "https://github.com/abseil/abseil-cpp.git",
+                    "tag": "20240116.1",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\d.]+)$"
@@ -114,8 +114,8 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://github.com/boostorg/boost",
-                    "tag": "boost-1.75.0",
+                    "url": "https://github.com/boostorg/boost.git",
+                    "tag": "boost-1.84.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "semantic"
@@ -144,8 +144,8 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://github.com/protocolbuffers/protobuf",
-                    "tag": "v21.12",
+                    "url": "https://github.com/protocolbuffers/protobuf.git",
+                    "tag": "v26.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\d.]+)$"
@@ -167,8 +167,8 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://github.com/google/libphonenumber",
-                    "tag": "v8.13.12",
+                    "url": "https://github.com/google/libphonenumber.git",
+                    "tag": "v8.13.32",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "semantic"
@@ -207,7 +207,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/evolution-data-server.git",
-                    "tag": "3.48.1",
+                    "tag": "3.52.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\d.]+)$"
@@ -226,7 +226,7 @@
                 {
                     "type": "git",
                     "url": "https://source.puri.sm/Librem5/feedbackd.git",
-                    "tag": "v0.0.0+git20220520",
+                    "tag": "v0.2.1",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v0\.0\.0\+git([\d]{8})$"
@@ -240,7 +240,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "tag" : "3.2.15",
+                    "tag" : "3.2.16",
                     "url": "https://gitlab.matrix.org/matrix-org/olm.git",
                     "x-checker-data": {
                         "type": "git",
@@ -267,9 +267,9 @@
             ],
             "sources" : [
                 {
-                    "type" : "git",
-                    "url" : "https://gitlab.freedesktop.org/mobile-broadband/ModemManager",
-                    "tag" : "1.21.8-dev",
+                    "type": "git",
+                    "url": "https://gitlab.freedesktop.org/mobile-broadband/ModemManager.git",
+                    "tag": "1.22.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^(\d+\.\d*[02468]\.\d+)$"
@@ -283,7 +283,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://gitlab.gnome.org/GNOME/gnome-desktop",
+                    "url": "https://gitlab.gnome.org/GNOME/gnome-desktop.git",
                     "tag": "44.0",
                     "x-checker-data": {
                         "type": "git",
