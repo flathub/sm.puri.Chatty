@@ -226,7 +226,7 @@
                 {
                     "type": "git",
                     "url": "https://source.puri.sm/Librem5/feedbackd.git",
-                    "tag": "v0.2.1",
+                    "tag": "v0.2.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v0\.0\.0\+git([\d]{8})$"
