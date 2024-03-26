@@ -220,7 +220,10 @@
             "buildsystem": "meson",
             "config-opts": [
                 "-Dtests=false",
-                "-Ddaemon=false"
+                "-Ddaemon=false",
+		"-Dintrospection=disabled",
+		"-Dgtk_doc=false",
+		"-Dvapi=false"
             ],
             "sources": [
                 {
