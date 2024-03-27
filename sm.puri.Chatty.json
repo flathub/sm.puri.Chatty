@@ -154,29 +154,6 @@
             ]
         },
         {
-            "name": "libphonenumber",
-            "buildsystem": "cmake-ninja",
-            "config-opts": [
-                "-DCMAKE_CXX_STANDARD=17",
-                "-DREGENERATE_METADATA=OFF",
-                "-DUSE_BOOST=OFF",
-                "-DBUILD_TESTING=OFF",
-                "-DFETCHCONTENT_FULLY_DISCONNECTED=ON"
-            ],
-            "subdir": "cpp",
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://github.com/google/libphonenumber.git",
-                    "tag": "v8.13.32",
-                    "x-checker-data": {
-                        "type": "git",
-                        "tag-pattern": "semantic"
-                    }
-                }
-            ]
-        },
-        {
             "name": "evolution-data-server",
             "cleanup": [
                 "/share/GConf",
@@ -194,7 +171,7 @@
                 "-DENABLE_GOOGLE=OFF",
                 "-DENABLE_VALA_BINDINGS=ON",
                 "-DENABLE_WEATHER=OFF",
-                "-DWITH_PHONENUMBER=OFF",
+                "-DWITH_PHONENUMBER=ON",
                 "-DWITH_OPENLDAP=OFF",
                 "-DWITH_LIBDB=OFF",
                 "-DENABLE_INTROSPECTION=ON",
@@ -248,34 +225,6 @@
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "semantic"
-                    }
-                }
-            ]
-        },
-        {
-            "name" : "ModemManager",
-            "buildsystem" : "meson",
-            "config-opts" : [
-                "-Dintrospection=false",
-                "-Dvapi=false",
-                "-Dudevdir=/app/lib",
-                "-Dsystemdsystemunitdir=/app/lib/systemd/system",
-                "-Dmbim=false",
-                "-Dqmi=false",
-                "-Dqrtr=false",
-                "-Dman=false",
-		"-Dgtk_doc=false",
-                "-Dexamples=false",
-                "-Dbash_completion=false"
-            ],
-            "sources" : [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.freedesktop.org/mobile-broadband/ModemManager.git",
-                    "tag": "1.22.0",
-                    "x-checker-data": {
-                        "type": "git",
-                        "tag-pattern": "^(\d+\.\d*[02468]\.\d+)$"
                     }
                 }
             ]
