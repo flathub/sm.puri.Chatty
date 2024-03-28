@@ -154,6 +154,29 @@
             ]
         },
         {
+            "name": "libphonenumber",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DCMAKE_CXX_STANDARD=17",
+                "-DREGENERATE_METADATA=OFF",
+                "-DUSE_BOOST=OFF",
+                "-DBUILD_TESTING=OFF",
+                "-DFETCHCONTENT_FULLY_DISCONNECTED=ON"
+            ],
+            "subdir": "cpp",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/google/libphonenumber.git",
+                    "tag": "v8.13.32",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "semantic"
+                    }
+                }
+            ]
+        },
+        {
             "name": "evolution-data-server",
             "cleanup": [
                 "/share/GConf",
