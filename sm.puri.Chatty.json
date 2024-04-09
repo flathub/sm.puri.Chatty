@@ -83,7 +83,7 @@
                     "tag": "v3.0.16",
                     "x-checker-data": {
                         "type": "git",
-                        "tag-pattern": "^v([\d.]+)$"
+                        "tag-pattern": "^v([\\d.]+)$"
                     }
                 }
             ]
@@ -103,7 +103,7 @@
                     "tag": "20230125.3",
                     "x-checker-data": {
                         "type": "git",
-                        "tag-pattern": "^([\d.]+)$"
+                        "tag-pattern": "^([\\d.]+)$"
                     }
                 }
             ]
@@ -118,7 +118,7 @@
                     "tag": "boost-1.75.0",
                     "x-checker-data": {
                         "type": "git",
-                        "tag-pattern": "semantic"
+                        "tag-pattern": "^boost-([\\d.]+)$"
                     }
                 }
             ],
@@ -148,7 +148,7 @@
                     "tag": "v21.12",
                     "x-checker-data": {
                         "type": "git",
-                        "tag-pattern": "^v([\d.]+)$"
+                        "tag-pattern": "^v([\\d.]+)$"
                     }
                 }
             ]
@@ -171,7 +171,7 @@
                     "tag": "v8.13.12",
                     "x-checker-data": {
                         "type": "git",
-                        "tag-pattern": "semantic"
+                        "tag-pattern": "^v([\\d.]+)$"
                     }
                 }
             ]
@@ -210,7 +210,7 @@
                     "tag": "3.48.1",
                     "x-checker-data": {
                         "type": "git",
-                        "tag-pattern": "^([\d.]+)$"
+                        "tag-pattern": "^([\\d.]+)$"
                     }
                 }
             ]
@@ -244,7 +244,7 @@
                     "url": "https://gitlab.matrix.org/matrix-org/olm.git",
                     "x-checker-data": {
                         "type": "git",
-                        "tag-pattern": "semantic"
+                        "tag-pattern": "^([\\d.]+)$"
                     }
                 }
             ]
@@ -287,7 +287,7 @@
                     "tag": "44.0",
                     "x-checker-data": {
                         "type": "git",
-                        "tag-pattern": "semantic"
+                        "tag-pattern": "^([\\d.]+)$"
                     }
                 }
             ]
@@ -303,7 +303,7 @@
                     "tag": "v0.8.1",
                     "x-checker-data": {
                         "type": "git",
-                        "tag-pattern": "semantic"
+                        "tag-pattern": "^v([\\d.]+)$"
                     }
                 },
                 {
