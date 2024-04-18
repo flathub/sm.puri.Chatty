@@ -51,7 +51,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://downloads.sourceforge.net/pidgin/pidgin-2.14.7.tar.bz2",
+                    "url": "http://phoenixnap.dl.sourceforge.net/project/pidgin/Pidgin/2.14.7/pidgin-2.14.7.tar.bz2",
                     "sha256": "fea6ab4f0572fe24646049c2b3fecbdca27abca6d06e95bd655e44db99bd69fe",
                     "x-checker-data": {
                         "type": "rotating-url",
@@ -80,11 +80,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/libical/libical.git",
-                    "tag": "v3.0.16",
+                    "tag": "v3.0.18",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
-                    }
+                    },
+                    "commit": "1b28a846d2dca16e5d15a433c6011cc2483555bb"
                 }
             ]
         },
@@ -100,11 +101,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/abseil/abseil-cpp",
-                    "tag": "20230125.3",
+                    "tag": "20240116.2",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
-                    }
+                    },
+                    "commit": "d7aaad83b488fd62bd51c81ecf16cd938532cc0a"
                 }
             ]
         },
@@ -115,11 +117,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/boostorg/boost",
-                    "tag": "boost-1.75.0",
+                    "tag": "boost-1.85.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^boost-([\\d.]+)$"
-                    }
+                    },
+                    "commit": "ab7968a0bbcf574a7859240d1d8443f58ed6f6cf"
                 }
             ],
             "build-commands": [
@@ -145,11 +148,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/protocolbuffers/protobuf",
-                    "tag": "v21.12",
+                    "tag": "v26.1",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
-                    }
+                    },
+                    "commit": "2434ef2adf0c74149b9d547ac5fb545a1ff8b6b5"
                 }
             ]
         },
@@ -168,11 +172,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/google/libphonenumber",
-                    "tag": "v8.13.12",
+                    "tag": "v8.13.35",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
-                    }
+                    },
+                    "commit": "127062fe7366823a89e11a1d9a421e99cf3a33b2"
                 }
             ]
         },
@@ -207,11 +212,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/evolution-data-server.git",
-                    "tag": "3.48.1",
+                    "tag": "3.52.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
-                    }
+                    },
+                    "commit": "739d0f7c158c768f3401c8a8b4cf41da94ef219b"
                 }
             ]
         },
@@ -229,7 +235,7 @@
                     "tag": "v0.0.0+git20220520",
                     "x-checker-data": {
                         "type": "git",
-                        "tag-pattern": "^v0\.0\.0\+git([\d]{8})$"
+                        "tag-pattern": "^v0.0.0+git([d]{8})$"
                     }
                 }
             ]
@@ -240,19 +246,20 @@
             "sources": [
                 {
                     "type": "git",
-                    "tag" : "3.2.15",
+                    "tag": "3.2.16",
                     "url": "https://gitlab.matrix.org/matrix-org/olm.git",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
-                    }
+                    },
+                    "commit": "7e0c8277032e40308987257b711b38af8d77cc69"
                 }
             ]
         },
         {
-            "name" : "ModemManager",
-            "buildsystem" : "meson",
-            "config-opts" : [
+            "name": "ModemManager",
+            "buildsystem": "meson",
+            "config-opts": [
                 "-Dintrospection=false",
                 "-Dvapi=false",
                 "-Dudevdir=/app/lib",
@@ -261,18 +268,18 @@
                 "-Dqmi=false",
                 "-Dqrtr=false",
                 "-Dman=false",
-		"-Dgtk_doc=false",
+                "-Dgtk_doc=false",
                 "-Dexamples=false",
                 "-Dbash_completion=false"
             ],
-            "sources" : [
+            "sources": [
                 {
-                    "type" : "git",
-                    "url" : "https://gitlab.freedesktop.org/mobile-broadband/ModemManager",
-                    "tag" : "1.21.8-dev",
+                    "type": "git",
+                    "url": "https://gitlab.freedesktop.org/mobile-broadband/ModemManager",
+                    "tag": "1.21.8-dev",
                     "x-checker-data": {
                         "type": "git",
-                        "tag-pattern": "^(\d+\.\d*[02468]\.\d+)$"
+                        "tag-pattern": "^(d+.d*[02468].d+)$"
                     }
                 }
             ]
@@ -288,7 +295,8 @@
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
-                    }
+                    },
+                    "commit": "97c0344b3ba955bb6f6fe74ca03cc399a81acaa5"
                 }
             ]
         },
@@ -300,11 +308,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/Chatty.git",
-                    "tag": "v0.8.1",
+                    "tag": "v0.8.2",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
-                    }
+                    },
+                    "commit": "ff8e8935c9ed4ab93022a405c4a3a6c797c279a1"
                 },
                 {
                     "type": "patch",
