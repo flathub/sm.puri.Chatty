@@ -1,7 +1,7 @@
 {
     "app-id": "sm.puri.Chatty",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "45",
+    "runtime-version": "46",
     "sdk": "org.gnome.Sdk",
     "command": "chatty",
     "finish-args": [
@@ -92,11 +92,6 @@
         {
             "name": "abseil",
             "buildsystem": "cmake-ninja",
-            "config-opts": [
-                "-DCMAKE_CXX_STANDARD=17",
-                "-DCMAKE_POSITION_INDEPENDENT_CODE=ON",
-                "-DABSL_PROPAGATE_CXX_STD=ON"
-            ],
             "sources": [
                 {
                     "type": "git",
@@ -199,7 +194,7 @@
                 "-DENABLE_GOOGLE=OFF",
                 "-DENABLE_VALA_BINDINGS=ON",
                 "-DENABLE_WEATHER=OFF",
-                "-DWITH_PHONENUMBER=ON",
+                "-DWITH_PHONENUMBER=OFF",
                 "-DWITH_OPENLDAP=OFF",
                 "-DWITH_LIBDB=OFF",
                 "-DENABLE_INTROSPECTION=ON",
@@ -303,6 +298,9 @@
         {
             "name": "chatty",
             "buildsystem": "meson",
+            "config-opts": [
+                "-Dtests=false"
+            ],
             "builddir": true,
             "sources": [
                 {
@@ -314,10 +312,6 @@
                         "tag-pattern": "^v([\\d.]+)$"
                     },
                     "commit": "3046c457f82e677e828b575901859fa52c958684"
-                },
-                {
-                    "type": "patch",
-                    "path": "sm.puri.Chatty.metainfo.xml.in.in.patch"
                 }
             ]
         }
