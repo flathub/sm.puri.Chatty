@@ -92,16 +92,20 @@
         {
             "name": "abseil",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DCMAKE_CXX_STANDARD=17",
+                "-DCMAKE_POSITION_INDEPENDENT_CODE=ON",
+                "-DABSL_PROPAGATE_CXX_STD=ON"
+            ],
             "sources": [
                 {
                     "type": "git",
                     "url": "https://github.com/abseil/abseil-cpp",
-                    "tag": "20240116.2",
+                    "tag": "20230125.3",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
-                    },
-                    "commit": "d7aaad83b488fd62bd51c81ecf16cd938532cc0a"
+                    }
                 }
             ]
         },
@@ -167,12 +171,11 @@
                 {
                     "type": "git",
                     "url": "https://github.com/google/libphonenumber",
-                    "tag": "v8.13.38",
+                    "tag": "v8.13.12",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
-                    },
-                    "commit": "8c862eca919464a26264aea09b388407e26bad6c"
+                    }
                 }
             ]
         },
