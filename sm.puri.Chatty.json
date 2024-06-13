@@ -51,7 +51,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://downloads.sourceforge.net/pidgin/pidgin-2.14.7.tar.bz2",
+                    "url": "http://versaweb.dl.sourceforge.net/project/pidgin/Pidgin/2.14.7/pidgin-2.14.7.tar.bz2?viasf=1",
                     "sha256": "fea6ab4f0572fe24646049c2b3fecbdca27abca6d06e95bd655e44db99bd69fe",
                     "x-checker-data": {
                         "type": "rotating-url",
@@ -148,11 +148,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/protocolbuffers/protobuf",
-                    "tag": "v21.12",
+                    "tag": "v27.1",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
-                    }
+                    },
+                    "commit": "3d9f7c430a5ae1385512908801492d4421c3cdb7"
                 }
             ]
         },
