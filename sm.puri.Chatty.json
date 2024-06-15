@@ -52,7 +52,12 @@
                 {
                     "type": "archive",
                     "url": "http://downloads.sourceforge.net/pidgin/pidgin-2.14.7.tar.bz2",
-                    "sha256": "fea6ab4f0572fe24646049c2b3fecbdca27abca6d06e95bd655e44db99bd69fe"
+                    "sha256": "fea6ab4f0572fe24646049c2b3fecbdca27abca6d06e95bd655e44db99bd69fe",
+                    "x-checker-data": {
+                        "type": "html",
+                        "url": "https://sourceforge.net/projects/pidgin/rss",
+                        "pattern": "<link>(https://sourceforge.net/.+/pidgin-([0-9.]+).([0-9.]+).([0-9.]+).tar.bz2)/download</link>"
+                    }
                 }
             ]
         },
