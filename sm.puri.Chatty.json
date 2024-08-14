@@ -117,12 +117,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/boostorg/boost",
-                    "tag": "boost-1.85.0",
+                    "tag": "boost-1.86.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^boost-([\\d.]+)$"
                     },
-                    "commit": "ab7968a0bbcf574a7859240d1d8443f58ed6f6cf"
+                    "commit": "65c1319bb92fe7a9a4abd588eff5818d9c2bccf9"
                 }
             ],
             "build-commands": [
@@ -227,12 +227,12 @@
                 {
                     "type": "git",
                     "url": "https://source.puri.sm/Librem5/feedbackd.git",
-                    "tag": "v0.4.0",
+                    "tag": "v0.4.1",
                     "x-checker-data": {
                         "type": "git",
                         "version-scheme": "semantic"
                     },
-                    "commit": "09396c7d64ee047849e65eb7ce1b7aa88763a902"
+                    "commit": "427058750263fc196cd3d5dd2f62058ed0ea7c18"
                 }
             ]
         },
