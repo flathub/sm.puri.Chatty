@@ -305,12 +305,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/Chatty.git",
-                    "tag": "v0.8.4",
+                    "tag": "v0.8.5",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     },
-                    "commit": "28b23d3d1a376b4691e031010fbe4a4b0da64d69"
+                    "commit": "7bea437c9e3086148da41a91e82218c9422aa67f"
                 }
             ]
         }
