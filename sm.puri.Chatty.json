@@ -167,12 +167,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/google/libphonenumber",
-                    "tag": "v8.13.43",
+                    "tag": "v8.13.44",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     },
-                    "commit": "b1d50c182b75aac6ed157f484ccdbb679bbf5809"
+                    "commit": "9dce1e00d91ea2c4157cb21fdcc4b16e1dcd039b"
                 }
             ]
         },
@@ -298,6 +298,22 @@
             ]
         },
         {
+            "name": "libcmatrix",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://source.puri.sm/Librem5/libcmatrix.git",
+                    "tag": "v0.0.2",
+                    "x-checker-data": {
+                        "type": "git",
+                        "version-scheme": "semantic"
+                    },
+                    "commit": "a338cafc420656a30adeb873430e978f0a688a33"
+                }
+            ]
+        },
+        {
             "name": "chatty",
             "buildsystem": "meson",
             "builddir": true,
@@ -305,12 +321,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/Chatty.git",
-                    "tag": "v0.8.4",
+                    "tag": "v0.8.5",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     },
-                    "commit": "28b23d3d1a376b4691e031010fbe4a4b0da64d69"
+                    "commit": "7bea437c9e3086148da41a91e82218c9422aa67f"
                 }
             ]
         }
