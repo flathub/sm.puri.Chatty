@@ -167,12 +167,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/google/libphonenumber",
-                    "tag": "v8.13.44",
+                    "tag": "v8.13.43",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     },
-                    "commit": "9dce1e00d91ea2c4157cb21fdcc4b16e1dcd039b"
+                    "commit": "b1d50c182b75aac6ed157f484ccdbb679bbf5809"
                 }
             ]
         },
