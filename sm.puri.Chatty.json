@@ -117,12 +117,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/boostorg/boost",
-                    "tag": "boost-1.86.0",
+                    "tag": "boost-1.87.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^boost-([\\d.]+)$"
                     },
-                    "commit": "65c1319bb92fe7a9a4abd588eff5818d9c2bccf9"
+                    "commit": "c89e6267665516192015a9e40955e154466f4f68"
                 }
             ],
             "build-commands": [
@@ -167,12 +167,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/google/libphonenumber",
-                    "tag": "v8.13.50",
+                    "tag": "v8.13.51",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     },
-                    "commit": "786b4e21bb9c7ffc8c4d79b18edc42cff48a2687"
+                    "commit": "a2cce3ba9bbf9168152c675f916ad4583ffabbe9"
                 }
             ]
         },
@@ -207,12 +207,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/evolution-data-server.git",
-                    "tag": "3.54.1",
+                    "tag": "3.54.2",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
                     },
-                    "commit": "0c6b6f30c524a1e0bc656b68e8b02f78d3a74981"
+                    "commit": "a12493abe06ecaba8207939c8049b7b5b7085ce9"
                 }
             ]
         },
