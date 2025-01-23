@@ -101,12 +101,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/abseil/abseil-cpp",
-                    "tag": "20240722.0",
+                    "tag": "20240722.1",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
                     },
-                    "commit": "4447c7562e3bc702ade25105912dce503f0c4010"
+                    "commit": "dd4c89bd657f1e247ce5111a5c89ffe6ccfd0c92"
                 }
             ]
         },
