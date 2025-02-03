@@ -227,12 +227,12 @@
                 {
                     "type": "git",
                     "url": "https://source.puri.sm/Librem5/feedbackd.git",
-                    "tag": "v0.6.0",
+                    "tag": "v0.7.0",
                     "x-checker-data": {
                         "type": "git",
                         "version-scheme": "semantic"
                     },
-                    "commit": "da7065ab25687648b040dd0baac48f58a7b06ade"
+                    "commit": "bbe8d5f4dbdb89c1a50d96f591a01c5ed33fcb4e"
                 }
             ]
         },
