@@ -304,12 +304,12 @@
                 {
                     "type": "git",
                     "url": "https://source.puri.sm/Librem5/libcmatrix.git",
-                    "tag": "v0.0.2",
+                    "tag": "v0.0.3",
                     "x-checker-data": {
                         "type": "git",
                         "version-scheme": "semantic"
                     },
-                    "commit": "a338cafc420656a30adeb873430e978f0a688a33"
+                    "commit": "d3e0ae0c7f80b1b88fa6c704a89d4c363d3a4ec7"
                 }
             ]
         },
