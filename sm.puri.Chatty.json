@@ -167,12 +167,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/google/libphonenumber",
-                    "tag": "v8.13.55",
+                    "tag": "v8.13.56",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     },
-                    "commit": "a38d516a21c67304513f1cc15f947509bc9bc9a8"
+                    "commit": "2ab58504b1ec32318d2ae59fd9f8c25493b358b6"
                 }
             ]
         },
@@ -321,12 +321,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/Chatty.git",
-                    "tag": "v0.8.5",
+                    "tag": "v0.8.6",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     },
-                    "commit": "7bea437c9e3086148da41a91e82218c9422aa67f"
+                    "commit": "a315b718b7a263362b8501c7e9c20371b75a0f29"
                 }
             ]
         }
