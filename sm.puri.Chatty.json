@@ -101,12 +101,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/abseil/abseil-cpp",
-                    "tag": "20250127.0",
+                    "tag": "20250127.1",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
                     },
-                    "commit": "9ac7062b1860d895fb5a8cbf58c3e9ef8f674b5f"
+                    "commit": "d9e4955c65cd4367dd6bf46f4ccb8cd3d100540b"
                 }
             ]
         },
@@ -117,12 +117,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/boostorg/boost",
-                    "tag": "boost-1.87.0",
+                    "tag": "boost-1.88.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^boost-([\\d.]+)$"
                     },
-                    "commit": "c89e6267665516192015a9e40955e154466f4f68"
+                    "commit": "199ef13d6034c85232431130142159af3adfce22"
                 }
             ],
             "build-commands": [
@@ -167,12 +167,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/google/libphonenumber",
-                    "tag": "v9.0.0",
+                    "tag": "v9.0.3",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     },
-                    "commit": "cf97126eae5591555b98ce438749d19825f43b4a"
+                    "commit": "a9641b19df5c7db1420fc28f604a10ee2f0eed6a"
                 }
             ]
         },
@@ -227,12 +227,12 @@
                 {
                     "type": "git",
                     "url": "https://source.puri.sm/Librem5/feedbackd.git",
-                    "tag": "v0.7.0",
+                    "tag": "v0.8.1",
                     "x-checker-data": {
                         "type": "git",
                         "version-scheme": "semantic"
                     },
-                    "commit": "bbe8d5f4dbdb89c1a50d96f591a01c5ed33fcb4e"
+                    "commit": "f14642cb0408af9b6bf963eff3bc61eff6b0a1b2"
                 }
             ]
         },
