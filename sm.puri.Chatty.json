@@ -101,12 +101,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/abseil/abseil-cpp",
-                    "tag": "20250127.1",
+                    "tag": "20250512.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
                     },
-                    "commit": "d9e4955c65cd4367dd6bf46f4ccb8cd3d100540b"
+                    "commit": "bc257a88f7c1939f24e0379f14a3589e926c950c"
                 }
             ]
         },
@@ -167,12 +167,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/google/libphonenumber",
-                    "tag": "v9.0.3",
+                    "tag": "v9.0.6",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     },
-                    "commit": "a9641b19df5c7db1420fc28f604a10ee2f0eed6a"
+                    "commit": "aae8da92860173444877e66694fe28e431abf25d"
                 }
             ]
         },
@@ -207,12 +207,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/evolution-data-server.git",
-                    "tag": "3.55.2",
+                    "tag": "3.56.2",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
                     },
-                    "commit": "70fd66adf6db71e2489f9e1a51431535a80eab36"
+                    "commit": "9330886fe4c5685bd18d1979bd5c60cb9c3fcc6d"
                 }
             ]
         },
@@ -321,12 +321,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/Chatty.git",
-                    "tag": "v0.8.5",
+                    "tag": "v0.8.7",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     },
-                    "commit": "7bea437c9e3086148da41a91e82218c9422aa67f"
+                    "commit": "588a14c595e5a221fb68536c47a12df2336c4e77"
                 }
             ]
         }
