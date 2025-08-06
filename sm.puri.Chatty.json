@@ -1,7 +1,7 @@
 {
     "app-id": "sm.puri.Chatty",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "46",
+    "runtime-version": "48",
     "sdk": "org.gnome.Sdk",
     "command": "chatty",
     "finish-args": [
@@ -51,8 +51,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://downloads.sourceforge.net/pidgin/pidgin-2.14.7.tar.bz2",
-                    "sha256": "fea6ab4f0572fe24646049c2b3fecbdca27abca6d06e95bd655e44db99bd69fe",
+                    "url": "http://downloads.sourceforge.net/pidgin/pidgin-2.14.14.tar.bz2",
+                    "sha256": "0ffc9994def10260f98a55cd132deefa8dc4a9835451cc0e982747bd458e2356",
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://sourceforge.net/projects/pidgin/rss",
@@ -101,12 +101,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/abseil/abseil-cpp",
-                    "tag": "20250127.1",
+                    "tag": "20250512.1",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
                     },
-                    "commit": "d9e4955c65cd4367dd6bf46f4ccb8cd3d100540b"
+                    "commit": "76bb24329e8bf5f39704eb10d21b9a80befa7c81"
                 }
             ]
         },
@@ -167,12 +167,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/google/libphonenumber",
-                    "tag": "v9.0.3",
+                    "tag": "v9.0.6",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     },
-                    "commit": "a9641b19df5c7db1420fc28f604a10ee2f0eed6a"
+                    "commit": "aae8da92860173444877e66694fe28e431abf25d"
                 }
             ]
         },
@@ -207,12 +207,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/evolution-data-server.git",
-                    "tag": "3.55.2",
+                    "tag": "3.56.2",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
                     },
-                    "commit": "70fd66adf6db71e2489f9e1a51431535a80eab36"
+                    "commit": "9330886fe4c5685bd18d1979bd5c60cb9c3fcc6d"
                 }
             ]
         },
@@ -226,13 +226,13 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://source.puri.sm/Librem5/feedbackd.git",
-                    "tag": "v0.8.1",
+                    "url": "https://gitlab.freedesktop.org/agx/feedbackd.git",
+                    "tag": "v0.8.3",
                     "x-checker-data": {
                         "type": "git",
                         "version-scheme": "semantic"
                     },
-                    "commit": "f14642cb0408af9b6bf963eff3bc61eff6b0a1b2"
+                    "commit": "d155b2e3054c94e05612f61150c90f1d984f0d05"
                 }
             ]
         },
@@ -272,12 +272,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.freedesktop.org/mobile-broadband/ModemManager",
-                    "tag": "1.22.0",
+                    "tag": "1.24.2",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^(d+.d*[02468].d+)$"
                     },
-                    "commit": "03f786ce66360d67c669f4f122f8aa458e6f01ea"
+                    "commit": "f2b9ab1ad78d322f32134a444b5b54c6e8160e19"
                 }
             ]
         },
@@ -288,12 +288,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/gnome-desktop",
-                    "tag": "44.1",
+                    "tag": "44.3",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
                     },
-                    "commit": "954eb83572b8870f616563b113af350d9e32fc99"
+                    "commit": "f1aba7d1ff0bd1a6bb35b03d77f56c3cc82a6024"
                 }
             ]
         },
@@ -321,12 +321,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/Chatty.git",
-                    "tag": "v0.8.5",
+                    "tag": "v0.8.8",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     },
-                    "commit": "7bea437c9e3086148da41a91e82218c9422aa67f"
+                    "commit": "1f9bf31f0b67edbb24d439311aec8a0213d3bee9"
                 }
             ]
         }
