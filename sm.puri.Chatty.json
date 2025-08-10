@@ -167,12 +167,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/google/libphonenumber",
-                    "tag": "v9.0.6",
+                    "tag": "v9.0.11",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     },
-                    "commit": "aae8da92860173444877e66694fe28e431abf25d"
+                    "commit": "f705f9eb57500e514f4559b2cfe65de5b4ed3693"
                 }
             ]
         },
@@ -207,12 +207,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/evolution-data-server.git",
-                    "tag": "3.56.2",
+                    "tag": "3.57.2",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
                     },
-                    "commit": "9330886fe4c5685bd18d1979bd5c60cb9c3fcc6d"
+                    "commit": "07ca0892a5942fd92495ca56389890fb03bb71eb"
                 }
             ]
         },
@@ -227,12 +227,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.freedesktop.org/agx/feedbackd.git",
-                    "tag": "v0.8.3",
+                    "tag": "v0.8.4",
                     "x-checker-data": {
                         "type": "git",
                         "version-scheme": "semantic"
                     },
-                    "commit": "d155b2e3054c94e05612f61150c90f1d984f0d05"
+                    "commit": "69a4ee2538029b97a4bf3a3cd011cd3922e2f3f9"
                 }
             ]
         },
