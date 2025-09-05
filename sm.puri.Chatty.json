@@ -288,12 +288,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/gnome-desktop",
-                    "tag": "44.3",
+                    "tag": "44.4",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
                     },
-                    "commit": "f1aba7d1ff0bd1a6bb35b03d77f56c3cc82a6024"
+                    "commit": "33516379260c09db7435432c7a250ce64afaad6e"
                 }
             ]
         },
