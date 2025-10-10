@@ -207,12 +207,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/evolution-data-server.git",
-                    "tag": "3.58.0",
+                    "tag": "3.58.1",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
                     },
-                    "commit": "aed3962e7d0914f4c5c04c6b6445cab1d935492e"
+                    "commit": "85f8acbdc1abfb3a3f2cf24c75836ec02016618e"
                 }
             ]
         },
