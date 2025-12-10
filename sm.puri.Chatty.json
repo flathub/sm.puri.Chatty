@@ -117,12 +117,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/boostorg/boost",
-                    "tag": "boost-1.89.0",
+                    "tag": "boost-1.90.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^boost-([\\d.]+)$"
                     },
-                    "commit": "ef7fea34711a189472893b88205b1dd3c275677b"
+                    "commit": "1bed2b0712b2119f20d66c5053def9173c8462a5"
                 }
             ],
             "build-commands": [
