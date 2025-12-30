@@ -227,12 +227,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.freedesktop.org/agx/feedbackd.git",
-                    "tag": "v0.8.7",
+                    "tag": "v0.8.8",
                     "x-checker-data": {
                         "type": "git",
                         "version-scheme": "semantic"
                     },
-                    "commit": "ada7e797360ab2aa6d5542f8446a4dec8ecd0375"
+                    "commit": "8ae3449d616e06240afb1e445727a08d6dee9559"
                 }
             ]
         },
