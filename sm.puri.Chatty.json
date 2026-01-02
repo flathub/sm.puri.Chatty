@@ -207,12 +207,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/evolution-data-server.git",
-                    "tag": "3.58.2",
+                    "tag": "3.59.1",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
                     },
-                    "commit": "9963c57f77a2ac305881d6b54b881c93118c3f84"
+                    "commit": "d0377a466d2ab1f7a11d00b30a430211a0cca72c"
                 }
             ]
         },
@@ -227,12 +227,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.freedesktop.org/agx/feedbackd.git",
-                    "tag": "v0.8.7",
+                    "tag": "v0.8.8",
                     "x-checker-data": {
                         "type": "git",
                         "version-scheme": "semantic"
                     },
-                    "commit": "ada7e797360ab2aa6d5542f8446a4dec8ecd0375"
+                    "commit": "8ae3449d616e06240afb1e445727a08d6dee9559"
                 }
             ]
         },
