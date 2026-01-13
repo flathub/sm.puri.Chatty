@@ -101,12 +101,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/abseil/abseil-cpp",
-                    "tag": "20250814.1",
+                    "tag": "20260107.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
                     },
-                    "commit": "d38452e1ee03523a208362186fd42248ff2609f6"
+                    "commit": "d407ef122a08203648451e0fec77b3f868b71112"
                 }
             ]
         },
@@ -167,12 +167,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/google/libphonenumber",
-                    "tag": "v9.0.21",
+                    "tag": "v9.0.22",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     },
-                    "commit": "3b7cd902d9928110251c0d5c567ea76b6feabf16"
+                    "commit": "52901ad588aee4b3cc777450bc2238e371adbd76"
                 }
             ]
         },
@@ -207,12 +207,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/evolution-data-server.git",
-                    "tag": "3.58.2",
+                    "tag": "3.59.1",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
                     },
-                    "commit": "9963c57f77a2ac305881d6b54b881c93118c3f84"
+                    "commit": "d0377a466d2ab1f7a11d00b30a430211a0cca72c"
                 }
             ]
         },
