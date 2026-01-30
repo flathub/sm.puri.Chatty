@@ -127,7 +127,11 @@
                 {
                     "type": "git",
                     "url": "https://github.com/protocolbuffers/protobuf",
-                    "tag": "v21.12"
+                    "tag": "v33.5",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
+                    }
                 }
             ]
         },
