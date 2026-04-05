@@ -115,6 +115,8 @@
             "buildsystem": "cmake-ninja",
             "config-opts": [
                 "-DCMAKE_POSITION_INDEPENDENT_CODE=ON",
+                "-Dprotobuf_LOCAL_DEPENDENCIES_ONLY=ON",
+                "-Dprotobuf_BUILD_SHARED_LIBS=ON",
                 "-Dprotobuf_BUILD_TESTS=OFF"
             ],
             "cleanup": [
@@ -127,8 +129,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/protocolbuffers/protobuf",
-                    "tag": "v21.12",
-                    "commit": "f0dc78d7e6e331b8c6bb2d5283e06aa26883ca7c"
+                    "tag": "v34.1",
+                    "commit": "4b0c3aacf0657fbf38253b38918d3358dd4319ec",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
+                    }
                 }
             ]
         },
