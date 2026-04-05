@@ -21,13 +21,12 @@
     ],
     "cleanup": [
         "/include",
+        "/lib/cmake",
+        "/lib/girepository-1.0",
         "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig",
         "/share/aclocal",
+        "/share/bash-completion",
+        "/share/gir-1.0",
         "/share/vala",
         "*.la",
         "*.a"
@@ -63,9 +62,6 @@
         },
         {
             "name": "libical",
-            "cleanup": [
-                "/lib/cmake"
-            ],
             "buildsystem": "cmake-ninja",
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=Release",
@@ -120,7 +116,6 @@
                 "-Dprotobuf_BUILD_TESTS=OFF"
             ],
             "cleanup": [
-                "protoc",
                 "/bin",
                 "/doc",
                 "/lib/plugins"
@@ -142,7 +137,6 @@
             "name": "libphonenumber",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-                "-DCMAKE_CXX_STANDARD=17",
                 "-DREGENERATE_METADATA=OFF",
                 "-DUSE_BOOST=OFF",
                 "-DBUILD_TESTING=OFF",
@@ -166,7 +160,6 @@
             "name": "evolution-data-server",
             "cleanup": [
                 "/share/GConf",
-                "/lib/cmake",
                 "/lib/evolution-data-server/*-backends",
                 "/libexec",
                 "/share/dbus-1/services"
