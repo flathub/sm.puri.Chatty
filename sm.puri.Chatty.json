@@ -81,11 +81,11 @@
                     "type": "git",
                     "url": "https://github.com/libical/libical.git",
                     "tag": "v3.0.20",
+                    "commit": "57ce34025066935f356fd539e6deb7a7a9952618",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
-                    },
-                    "commit": "57ce34025066935f356fd539e6deb7a7a9952618"
+                    }
                 }
             ]
         },
@@ -97,11 +97,11 @@
                     "type": "git",
                     "url": "https://github.com/boostorg/boost",
                     "tag": "boost-1.90.0",
+                    "commit": "1bed2b0712b2119f20d66c5053def9173c8462a5",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^boost-([\\d.]+)$"
-                    },
-                    "commit": "1bed2b0712b2119f20d66c5053def9173c8462a5"
+                    }
                 }
             ],
             "build-commands": [
@@ -127,7 +127,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/protocolbuffers/protobuf",
-                    "tag": "v21.12"
+                    "tag": "v21.12",
+                    "commit": "f0dc78d7e6e331b8c6bb2d5283e06aa26883ca7c"
                 }
             ]
         },
@@ -147,11 +148,11 @@
                     "type": "git",
                     "url": "https://github.com/google/libphonenumber",
                     "tag": "v9.0.27",
+                    "commit": "5f3d1d79faa242fb2948b714021f35b4603c86d8",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
-                    },
-                    "commit": "5f3d1d79faa242fb2948b714021f35b4603c86d8"
+                    }
                 }
             ]
         },
@@ -187,11 +188,11 @@
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/evolution-data-server.git",
                     "tag": "3.60.0",
+                    "commit": "9d0ce9fee8c88fb2f7c19b1df311f844bdab710f",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
-                    },
-                    "commit": "9d0ce9fee8c88fb2f7c19b1df311f844bdab710f"
+                    }
                 }
             ]
         },
@@ -207,11 +208,11 @@
                     "type": "git",
                     "url": "https://gitlab.freedesktop.org/agx/feedbackd.git",
                     "tag": "v0.8.9",
+                    "commit": "1be162a2e5aad10760f34b734e062c4fa250b159",
                     "x-checker-data": {
                         "type": "git",
                         "version-scheme": "semantic"
-                    },
-                    "commit": "1be162a2e5aad10760f34b734e062c4fa250b159"
+                    }
                 }
             ]
         },
@@ -226,11 +227,11 @@
                     "type": "git",
                     "tag": "3.2.16",
                     "url": "https://gitlab.matrix.org/matrix-org/olm.git",
+                    "commit": "7e0c8277032e40308987257b711b38af8d77cc69",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
-                    },
-                    "commit": "7e0c8277032e40308987257b711b38af8d77cc69"
+                    }
                 }
             ]
         },
@@ -255,11 +256,11 @@
                     "type": "git",
                     "url": "https://gitlab.freedesktop.org/mobile-broadband/ModemManager",
                     "tag": "1.24.2",
+                    "commit": "f2b9ab1ad78d322f32134a444b5b54c6e8160e19",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^(d+.d*[02468].d+)$"
-                    },
-                    "commit": "f2b9ab1ad78d322f32134a444b5b54c6e8160e19"
+                    }
                 }
             ]
         },
@@ -271,11 +272,11 @@
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/gnome-desktop",
                     "tag": "44.5",
+                    "commit": "c214a5f3ff96d6add49bd88372c0c449bcab1967",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
-                    },
-                    "commit": "c214a5f3ff96d6add49bd88372c0c449bcab1967"
+                    }
                 }
             ]
         },
@@ -287,11 +288,11 @@
                     "type": "git",
                     "url": "https://source.puri.sm/Librem5/libcmatrix.git",
                     "tag": "v0.0.4",
+                    "commit": "5999b7afcb02b459fe13a2b93ab018f3af6d2b05",
                     "x-checker-data": {
                         "type": "git",
                         "version-scheme": "semantic"
-                    },
-                    "commit": "5999b7afcb02b459fe13a2b93ab018f3af6d2b05"
+                    }
                 }
             ]
         },
@@ -304,11 +305,11 @@
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/Chatty.git",
                     "tag": "v0.8.9",
+                    "commit": "8fcf8387917bf9d25a005c9e6b506026e77a4876",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
-                    },
-                    "commit": "8fcf8387917bf9d25a005c9e6b506026e77a4876"
+                    }
                 }
             ]
         }
