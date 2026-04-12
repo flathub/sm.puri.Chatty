@@ -146,12 +146,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/google/libphonenumber",
-                    "tag": "v9.0.21",
+                    "tag": "v9.0.28",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     },
-                    "commit": "3b7cd902d9928110251c0d5c567ea76b6feabf16"
+                    "commit": "5b8decec1c8cbac86dfa479f3b42d8ec2fbf1f90"
                 }
             ]
         },
@@ -186,12 +186,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/evolution-data-server.git",
-                    "tag": "3.58.2",
+                    "tag": "3.60.1",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
                     },
-                    "commit": "9963c57f77a2ac305881d6b54b881c93118c3f84"
+                    "commit": "9a4bda5279cc5de9772c447559ea9baeb4a085ff"
                 }
             ]
         },
@@ -206,12 +206,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.freedesktop.org/agx/feedbackd.git",
-                    "tag": "v0.8.8",
+                    "tag": "v0.8.9",
                     "x-checker-data": {
                         "type": "git",
                         "version-scheme": "semantic"
                     },
-                    "commit": "8ae3449d616e06240afb1e445727a08d6dee9559"
+                    "commit": "1be162a2e5aad10760f34b734e062c4fa250b159"
                 }
             ]
         },
@@ -270,12 +270,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/gnome-desktop",
-                    "tag": "44.4",
+                    "tag": "44.5",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
                     },
-                    "commit": "33516379260c09db7435432c7a250ce64afaad6e"
+                    "commit": "c214a5f3ff96d6add49bd88372c0c449bcab1967"
                 }
             ]
         },
@@ -303,12 +303,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/Chatty.git",
-                    "tag": "v0.8.8",
+                    "tag": "v0.8.9",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     },
-                    "commit": "1f9bf31f0b67edbb24d439311aec8a0213d3bee9"
+                    "commit": "8fcf8387917bf9d25a005c9e6b506026e77a4876"
                 }
             ]
         }
