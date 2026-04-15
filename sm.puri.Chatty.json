@@ -76,8 +76,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/libical/libical.git",
-                    "tag": "v3.0.20",
-                    "commit": "57ce34025066935f356fd539e6deb7a7a9952618",
+                    "tag": "v4.0.0",
+                    "commit": "21992d166552f70c187f04b9cac135c919fe4187",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
