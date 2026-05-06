@@ -76,8 +76,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/libical/libical.git",
-                    "tag": "v3.0.20",
-                    "commit": "57ce34025066935f356fd539e6deb7a7a9952618",
+                    "tag": "v4.0.0",
+                    "commit": "a4aceb43adb8a40578c758ab13d40f233868a1eb",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -92,8 +92,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/boostorg/boost",
-                    "tag": "boost-1.90.0",
-                    "commit": "1bed2b0712b2119f20d66c5053def9173c8462a5",
+                    "tag": "boost-1.91.0",
+                    "commit": "1a80576db6b70828803819fb6925132193bc5d0e",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^boost-([\\d.]+)$"
@@ -147,8 +147,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/google/libphonenumber",
-                    "tag": "v9.0.28",
-                    "commit": "5b8decec1c8cbac86dfa479f3b42d8ec2fbf1f90",
+                    "tag": "v9.0.30",
+                    "commit": "5f37c1dbde13062c661bdbece0260d4790fb30a5",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
