@@ -76,8 +76,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/libical/libical.git",
-                    "tag": "v3.0.20",
-                    "commit": "57ce34025066935f356fd539e6deb7a7a9952618",
+                    "tag": "v4.0.3",
+                    "commit": "9b8163c78dfb43e8b700e6c7e531f0df64c208bf",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -92,8 +92,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/boostorg/boost",
-                    "tag": "boost-1.90.0",
-                    "commit": "1bed2b0712b2119f20d66c5053def9173c8462a5",
+                    "tag": "boost-1.91.0",
+                    "commit": "1a80576db6b70828803819fb6925132193bc5d0e",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^boost-([\\d.]+)$"
@@ -124,8 +124,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/protocolbuffers/protobuf",
-                    "tag": "v34.1",
-                    "commit": "4b0c3aacf0657fbf38253b38918d3358dd4319ec",
+                    "tag": "v35.1",
+                    "commit": "35cd01f9fe9afbeea38cc7b979a3b6bfcde82c03",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -147,8 +147,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/google/libphonenumber",
-                    "tag": "v9.0.28",
-                    "commit": "5b8decec1c8cbac86dfa479f3b42d8ec2fbf1f90",
+                    "tag": "v9.0.33",
+                    "commit": "5178ee5b450e37a3adda9808abb09200acbae5db",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -186,8 +186,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/evolution-data-server.git",
-                    "tag": "3.60.1",
-                    "commit": "9a4bda5279cc5de9772c447559ea9baeb4a085ff",
+                    "tag": "3.60.2",
+                    "commit": "c63344d7f4891503c108eda5faf50621ccb2602d",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
