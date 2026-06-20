@@ -102,7 +102,7 @@
                 }
             ],
             "build-commands": [
-                "./bootstrap.sh --prefix=${FLATPAK_DEST} --with-libraries=date_time,thread,system",
+                "./bootstrap.sh --prefix=${FLATPAK_DEST} --with-libraries=date_time,thread",
                 "./b2 -j ${FLATPAK_BUILDER_N_JOBS} headers",
                 "./b2 -j ${FLATPAK_BUILDER_N_JOBS} install"
             ]
