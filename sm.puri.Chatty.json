@@ -70,7 +70,8 @@
                 "-DICAL_GLIB=true",
                 "-DGOBJECT_INTROSPECTION=true",
                 "-DICAL_GLIB_VAPI=true",
-                "-DICAL_BUILD_DOCS=false"
+                "-DICAL_BUILD_DOCS=false",
+                "-DLIBICAL_JAVA_BINDINGS=False"
             ],
             "sources": [
                 {
