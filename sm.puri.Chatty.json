@@ -259,7 +259,7 @@
                     "commit": "f2b9ab1ad78d322f32134a444b5b54c6e8160e19",
                     "x-checker-data": {
                         "type": "git",
-                        "tag-pattern": "^(d+.d*[02468].d+)$"
+                        "tag-pattern": "^(\\d+\\.\\d*[02468]\\.\\d+)$"
                     }
                 }
             ]
