@@ -55,7 +55,7 @@
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://sourceforge.net/projects/pidgin/rss",
-                        "pattern": "<link>(https://sourceforge.net/.+/pidgin-([0-9.]+).([0-9.]+).([0-9.]+).tar.bz2)/download</link>"
+                        "pattern": "<link>(https://sourceforge.net/.+/pidgin-([0-9]+\\.[0-9]+\\.[0-9]+)\\.tar\\.bz2)/download</link>"
                     }
                 }
             ]
